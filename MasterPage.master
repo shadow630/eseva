@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="StyleSheet.css" rel="stylesheet" />
+<link href="fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet" />
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1518px;
+            height: 151px;
+            position: absolute;
+            top: 18px;
+            left: 7px;
+            z-index: 1;
+        }
+        .auto-style2 {
+            width: 1511px;
+            height: 1077px;
+            position: absolute;
+            top: 172px;
+            left: 10px;
+            z-index: 1;
+            margin-bottom: 0px;
+        }
+        .auto-style3 {
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            z-index: 1;
+            width: 448px;
+            height: 129px;
+        }
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          
+      
+                <br />
+                <asp:Panel ID="Panel1" runat="server" CssClass="auto-style1" BackColor="#C5C5C5">
+                    <br />
+                    <asp:Image ID="Image1" runat="server" CssClass="auto-style3" ImageUrl="~/Logo.png" />
+                    <br />
+                    <br />
+                    <div class="navbar">
+                        <a href="Home.aspx"><i class="fas fa-home"></i>&nbsp;Home</a>  <a href=""><i class="fas fa-calendar-week"></i>&nbsp;Events</a><a href=""><i class="fas fa-question"></i>&nbsp;FAQ</a><a href=""><i class="fas fa-users"></i>&nbsp;About Us</a><a href="Accpter.aspx"><i class="fas fa-hand-holding-usd"></i>&nbsp;Acceptor</a><a href="doner.aspx"><i class="fas fa-hands-helping"></i>&nbsp;Donate</a>
+                       <!--<div class="dropdown" >
+                            <button class="dropbtn" >
+                                Dropdown <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a> <a href="#">Link 2</a> <a href="#">Link 3</a>
+                            </div>
+                        </div>-->
+                    </div>
+                </asp:Panel>
+                <br />
+                <br />
+                <br />
+                <br />
+      
+        
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                <br />
+            </p>
+            <asp:Panel ID="Panel2" runat="server" BackImageUrl="~/Back2.jpg" CssClass="auto-style2">
+            </asp:Panel>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        </asp:ContentPlaceHolder>
+    </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </form>
+</body>
+</html>

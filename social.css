@@ -1,0 +1,49 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+    background-position:center;
+}
+.icons{
+    position:fixed;
+     
+     top:190px;
+     left:0px;
+     width:200px;
+     display:flex;
+     flex-direction:column;
+     background-position:center;
+   }
+.icons a{
+    text-decoration:none;
+    text-transform:uppercase;
+    padding:10px;
+    font-size:22px;
+    font-family:'Oswald',sans-serif;
+    margin:2px;
+    text-align:right;
+    border-radius:0px 50px 50px 0px;
+    transform:translate(-150px,0px);
+    transition:all 0.5s;
+}
+.icons a:hover{
+    transform:translate(0px,0px);
+}
+.icons a i{
+    margin-left:25px;
+   transition:all 0.5s;
+}
+.icons a:hover i{
+    transform:rotate(360deg);
+}
+.facebook{
+    background-color:#2C80D3;
+    color:#f9f6f6;
+}
+.insta{
+    background-color:#e1195e;
+    color:#f9f6f6;
+}
+.tweet{
+    background-color:#53c5ff;
+    color:#f9f6f6;
+}
